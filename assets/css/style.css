@@ -360,7 +360,7 @@ section {
 }
 #hero:before {
   content: "";
-  background: rgba(112, 185, 176, 0.85);
+  background: rgba(108, 110, 110, 0.85);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -407,8 +407,8 @@ section {
 }
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #70b9b0;
-  border: 1px solid #70b9b0;
+  color: #007bff;
+  border: 1px solid #007bff;
 }
 @media (min-width: 1024px) {
   #hero {
