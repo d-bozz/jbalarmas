@@ -278,7 +278,7 @@
           </div>
 
           <div class="col-lg-5 col-md-12">
-            <form action="mailto:seguridadjbalarmas@gmail.com" method="post" role="form" enctype="text/plain">
+            <form id="contactForm" action="https://formsubmit.co/seguridadjbalarmas@gmail.com" method="POST">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="* Nombre" required>
               </div>
@@ -293,7 +293,10 @@
               </div>
               <div class="my-3">
               </div>
-              <div class="text-center"><button type="submit" class="btn btn-primary">Enviar mensaje</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-primary" id="submitButton">Enviar mensaje</button></div>
+              <input type="hidden" name="_next" value="https://www.jbalarmas.com/gracias.html">
+              <input type="hidden" name="_subject" value="Consulta para JB Alarmas">
+              <input type="hidden" name="_captcha" value="false">
             </form>
 
           </div>
@@ -326,7 +329,8 @@
         Designed by Damian Boz</a>
       </div>
     </div>
-  </footer><!-- End #footer -->
+  </footer>
+  <!-- End #footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
